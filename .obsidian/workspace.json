@@ -4,6 +4,24 @@
     "type": "split",
     "children": [
       {
+        "id": "02edb62291b86ff3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f0d6e72901980df",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/captura-dados-bolsa-de-valores.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "captura-dados-bolsa-de-valores"
+            }
+          }
+        ]
+      },
+      {
         "id": "de98d6522b2ea3c3",
         "type": "tabs",
         "children": [
@@ -121,7 +139,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 491.5
+    "width": 491.5,
+    "collapsed": true
   },
   "right": {
     "id": "6d280047996c7655",
@@ -285,7 +304,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
