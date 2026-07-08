@@ -4,19 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "8427f53b9c1076d0",
+        "id": "0d6034a5027b8867",
         "type": "tabs",
         "children": [
           {
-            "id": "ed27c59cb502a163",
+            "id": "0700b4133487bdac",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados da bolsa de valores/divisao em camadas/diagrama de camadas.md"
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.md"
               },
               "icon": "excalidraw-icon",
-              "title": "diagrama de camadas"
+              "title": "captura de noticias"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3df8dad34e5c871b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df3ab7b493bd817f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "captura de noticias-DCamadas"
             }
           }
         ]
@@ -298,54 +316,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ed27c59cb502a163",
+  "active": "df3ab7b493bd817f",
   "lastOpenFiles": [
-    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados da bolsa de valores/bounded context/captura-dados-bolsa-de-valores.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas/bounded context/criptomoeda.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas/bounded context/criptomoeda.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas/diagrama de camadas",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas/bounded context",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/bounded context/captura de preferencias do usuário.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/bounded context/captura de preferencias do usuário.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/diagrama de camadas",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/bounded context",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ contas e transacoes/bounded context/tranferencia de dinheiro.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ contas e transacoes/bounded context/tranferencia de dinheiro.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ contas e transacoes/diagrama de camadas",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ contas e transacoes/bounded context",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ contas e transacoes",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/bounded context/concessao de credito.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/bounded context/concessao de credito.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/diagrama de camadas",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de noticias/diagrama de camadas/diagrama de camadas 1.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/concessao de credito/bounded context/concessao de credito.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de noticias/bounded context/captura de noticias.md",
     "documentation/arquitetura do sistema/v1/Process Modeling/personalizacao de sugestoes ded investimento para o usuario/personalizacao de sugestoes de investimento para o usuário.md",
     "documentation/arquitetura do sistema/v1/visao geral do sistema/diagrama geral do sistema/mapa de dominio.md",
-    "documentation/arquitetura do sistema/v1/visao geral do sistema/diagrama geral do sistema/mapa de dominio.png",
     "documentation/arquitetura do sistema/v1/visao geral do sistema/1-Definição de Domínio e subdomínios do Projeto.md",
     "documentation/arquitetura do sistema/v1/visao geral do sistema/2-contextos delimitados(bounded context).md",
-    "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/divisao em camadas/diagrama de camadas.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados da bolsa de valores/divisao em camadas/diagrama de camadas.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados da bolsa de valores/divisao em camadas/diagrama de camadas.png",
-    "documentation/arquitetura do sistema/v1/Process Modeling/personalização de noticias/personalização de noticias.png",
     "documentation/arquitetura do sistema/v1/Process Modeling/personalização de noticias/personalização de noticias.md",
-    "documentation/arquitetura do sistema/v1/Process Modeling/personalizacao de sugestoes ded investimento para o usuario/personalizacao de sugestoes de investimento para o usuário.png",
-    "documentation/arquitetura do sistema/v1/Process Modeling/identidade e acesso/Identidade e Acesso.png",
     "documentation/arquitetura do sistema/v1/Process Modeling/identidade e acesso/Identidade e Acesso.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/sistema gerenciador de criptomoedas/criptomoeda.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/sistema gerenciador de criptomoedas/criptomoeda.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/gestão de preferencias do usuario/captura de preferencias do usuário.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/gestão de preferencias do usuario/captura de preferencias do usuário.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/contas e transacoes/tranferencia de dinheiro.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/contas e transacoes/tranferencia de dinheiro.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/concessao de credito/concessao de credito.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/concessao de credito/concessao de credito.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de noticias/captura de noticias.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados da bolsa de valores/divisao em camadas",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados da bolsa de valores/bounded context/captura-dados-bolsa-de-valores.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados da bolsa de valores/bounded context",
-    "documentation/arquitetura do sistema/v1/visao geral do sistema/diagrama geral do sistema",
-    "documentation/arquitetura do sistema/v1/Process Modeling/personalização de noticias",
-    "documentation/arquitetura do sistema/v1/Process Modeling/personalizacao de sugestoes ded investimento para o usuario",
-    "documentation/arquitetura do sistema/v1/Process Modeling/identidade e acesso",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/sistema gerenciador de criptomoedas",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/gestão de preferencias do usuario",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/contas e transacoes",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/concessao de credito",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/sistema gerenciador de criptomoedas/bounded context/criptomoeda.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/gestão de preferencias do usuario/bounded context/captura de preferencias do usuário.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/contas e transacoes/bounded context/tranferencia de dinheiro.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/concessao de credito/bounded context/concessao de credito.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
     "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/divisao em camadas/diagrama de camadas.md",
     "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/captura-dados-bolsa-de-valores.md",
     "documentation/arquitetura de software/Sem título.md",
-    "documentation/DDD/v1/visao geral do sistema/1-Definição de Domínio e subdomínios do Projeto.md",
-    "documentation/DDD/v1/visao geral do sistema/2-contextos delimitados(bounded context).md",
-    "documentation/DDD/v1/visao geral do sistema/diagrama geral do sistema/mapa de dominio.md",
-    "documentation/DDD/v1/Process Modeling/personalizacao de sugestoes ded investimento para o usuario/personalizacao de sugestoes de investimento para o usuário.md",
-    "documentation/DDD/v1/Process Modeling/personalização de noticias/personalização de noticias.md",
-    "documentation/DDD/v1/Process Modeling/identidade e acesso/Identidade e Acesso.md",
-    "documentation/DDD/v1/bounded context/sistema gerenciador de criptomoedas/criptomoeda.md",
-    "documentation/DDD/v1/bounded context/gestão de preferencias do usuario/captura de preferencias do usuário.md",
-    "documentation/DDD/v1/bounded context/contas e transacoes/tranferencia de dinheiro.md",
     "Sem título.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
