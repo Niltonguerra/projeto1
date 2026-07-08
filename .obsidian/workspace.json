@@ -4,62 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ccd65127264a04e5",
+        "id": "de98d6522b2ea3c3",
         "type": "tabs",
         "children": [
           {
-            "id": "7a1a174dd2fcdaa8",
+            "id": "6ba3f421b8bc9893",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/Process Modeling/personalizacao de sugestoes de investimento para o usuário.md"
-              },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
-            }
-          },
-          {
-            "id": "e4a56de749229caa",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/contas e transacoes/tranferencia de dinheiro.md"
-              },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
-            }
-          },
-          {
-            "id": "a837fc299e73967d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/mapa de dominio.md"
-              },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
-            }
-          },
-          {
-            "id": "5ab8650c0171436e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "codigo/Sem título.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "Nova aba"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -340,9 +298,19 @@
   },
   "active": "2a94081eb84fb2b5",
   "lastOpenFiles": [
-    "infrastructure/Sem título.md",
-    "codigo/Sem título.md",
+    "documentation/DDD/v1/bounded context/captura de noticias/Drawing 2026-07-04 12.26.59.excalidraw 1.md",
+    "documentation/DDD/v1/bounded context/captura de noticias/captura de noticias.md",
+    "documentation/DDD/v1/Process Modeling/Identidade e Acesso.md",
+    "documentation/DDD/v1/Process Modeling/personalização de noticias.md",
+    "documentation/DDD/v1/Process Modeling/personalizacao de sugestoes de investimento para o usuário.md",
+    "documentation/DDD/v1/1-Definição de Domínio do Projeto.md",
+    "documentation/DDD/v1/2-contextos delimitados(bounded context).md",
+    "documentation/DDD/v1/big picture.md",
+    "documentation/DDD/v1/mapa de dominio.md",
     "documentation/arquitetura de software/Sem título.md",
+    "README.md",
+    "codigo/Sem título.md",
+    "infrastructure/Sem título.md",
     "documentation/arquitetura de software",
     "Sem título",
     "codigo",
@@ -360,21 +328,11 @@
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/2-contextos delimitados(bounded context).md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/big picture.md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/mapa de dominio.md",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/copia de segurança.md",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/Sem título.md",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/sistema gerenciador de criptomoedas/criptomoeda.md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/sistema gerenciador de criptomoedas",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/gestão de preferencias do usuario",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/captura de noticias/Drawing 2026-07-04 12.26.59.excalidraw 1.md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/Process Modeling",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/bounded context/captura de dados da bolsa de valores/bounded context de captura de dados da bolsa de valores.md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/bounded context/ordem de pagamento",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/bounded context/captura de dados da bolsa de valores/fluxo de acoes captura de dados da bolsa de valores.md",
-    "notas_bibliograficas/cursos_longos/FIAP/modulo1/DDD/aula06/Event Storming part 1.md",
-    "notas_bibliograficas/cursos_longos/FIAP/modulo1/DDD/aula06/Event Storming part 2.md",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/bounded context/captura de noticias/Drawing 2026-07-05 19.21.12.excalidraw.md",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/Process Modeling/Sem título.md",
     "notas_bibliograficas/cursos_longos/FIAP/modulo1/DDD/aula06/DDD - Aula 6 - PÓS-GRADUAÇÃO ON.pdf",
     "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210721.png",
     "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210654.png",
