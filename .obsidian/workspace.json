@@ -11,18 +11,28 @@
             "id": "6ba3f421b8bc9893",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "documentation/DDD/v1/visao geral do sistema/1-Definição de Domínio e subdomínios do Projeto.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/captura-dados-bolsa-de-valores.md"
               },
-              "icon": "lucide-file",
-              "title": "1-Definição de Domínio e subdomínios do Projeto"
+              "icon": "excalidraw-icon",
+              "title": "captura-dados-bolsa-de-valores"
+            }
+          },
+          {
+            "id": "1863e76f802713f2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/arquitetura de software/divisao em camadas/Drawing 2026-07-08 17.03.01.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-08 17.03.01.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -300,14 +310,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2a94081eb84fb2b5",
+  "active": "1863e76f802713f2",
   "lastOpenFiles": [
+    "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/captura-dados-bolsa-de-valores.md",
+    "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/arquitetura de software/divisao em camadas/Drawing 2026-07-08 17.03.01.excalidraw.md",
+    "documentation/arquitetura de software/Sem título.md",
+    "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/arquitetura de software/divisao em camadas",
+    "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/arquitetura de software",
+    "documentation/DDD/v1/visao geral do sistema/1-Definição de Domínio e subdomínios do Projeto.md",
     "documentation/DDD/v1/visao geral do sistema/2-contextos delimitados(bounded context).md",
     "documentation/DDD/v1/visao geral do sistema/diagrama geral do sistema/mapa de dominio.md",
     "documentation/DDD/v1/visao geral do sistema/diagrama geral do sistema/mapa de dominio.png",
     "documentation/DDD/v1/visao geral do sistema/diagrama geral do sistema",
     "documentation/DDD/v1/visao geral do sistema",
-    "documentation/DDD/v1/visao geral do sistema/1-Definição de Domínio e subdomínios do Projeto.md",
     "documentation/DDD/v1/Process Modeling/personalizacao de sugestoes ded investimento para o usuario/personalizacao de sugestoes de investimento para o usuário.png",
     "documentation/DDD/v1/Process Modeling/personalização de noticias/personalização de noticias.png",
     "documentation/DDD/v1/Process Modeling/identidade e acesso/Identidade e Acesso.png",
@@ -327,9 +342,7 @@
     "documentation/DDD/v1/bounded context/concessao de credito/concessao de credito.png",
     "documentation/DDD/v1/bounded context/captura de noticias/captura de noticias.md",
     "documentation/DDD/v1/bounded context/captura de noticias/captura de noticias.png",
-    "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/captura-dados-bolsa-de-valores.md",
     "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/captura-dados-bolsa-de-valores.png",
-    "documentation/arquitetura de software/Sem título.md",
     "documentation/arquitetura de software/UML",
     "documentation/DDD/v1/big picture.md",
     "documentation/arquitetura de software/arquitetura limpa",
@@ -339,8 +352,6 @@
     "documentation/DDD/v1/bounded context/captura de noticias/Drawing 2026-07-04 12.26.59.excalidraw 1.md",
     "codigo/Sem título.md",
     "documentation/arquitetura de software",
-    "Sem título",
-    "codigo",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/captura de dados da bolsa de valores/Drawing 2026-07-04 12.26.59.excalidraw.md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/captura de dados da bolsa de valores/captura-dados-bolsa-de-valores.md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/captura de noticias/captura de noticias.md",
