@@ -31,12 +31,15 @@
             "id": "df3ab7b493bd817f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md"
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "captura de noticias-DCamadas"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -319,8 +322,8 @@
   },
   "active": "df3ab7b493bd817f",
   "lastOpenFiles": [
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas/bounded context/criptomoeda.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas/bounded context/criptomoeda.md",
