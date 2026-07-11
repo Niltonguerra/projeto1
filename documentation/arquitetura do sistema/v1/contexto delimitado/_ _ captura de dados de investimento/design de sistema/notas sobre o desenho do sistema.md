@@ -40,6 +40,22 @@ responsável por tagiar as informações geradas, ele basicamente vai ver as inf
 
 
 ### SGBD 1
-banco de dados tagiados com informações de investimento, isso não quer dizer uma tabela, isso ainda está abstrado, irei desenhar isso depois
+banco de dados com informações de investimentos, destinado principalmente para a escrita de dados
+#### explicação da steak adotada:
+
+
+
+
+### sistema sincronizador de dados
+sistema destinado a sincronização de bancos de dados com base em eventos
+
+#### explicação da steak adotada:
+
+
+
+
+
+### SGBD 2
+sistema de banco de dados com foco em leitura de dados  de investimentos  com o objetivo de otimizar consultas de leitura de dados.
 
 #### explicação da steak adotada:
