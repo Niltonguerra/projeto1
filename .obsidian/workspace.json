@@ -6,7 +6,7 @@
       {
         "id": "0d6034a5027b8867",
         "type": "tabs",
-        "dimension": 44.762845849802375,
+        "dimension": 44.76284584980238,
         "children": [
           {
             "id": "0700b4133487bdac",
@@ -25,7 +25,7 @@
       {
         "id": "3df8dad34e5c871b",
         "type": "tabs",
-        "dimension": 55.237154150197625,
+        "dimension": 55.23715415019762,
         "children": [
           {
             "id": "df3ab7b493bd817f",
@@ -320,8 +320,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "df3ab7b493bd817f",
+  "active": "0700b4133487bdac",
   "lastOpenFiles": [
+    "README.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.png",
