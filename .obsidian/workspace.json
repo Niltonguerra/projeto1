@@ -34,6 +34,21 @@
               "icon": "excalidraw-icon",
               "title": "design-sistema-captura-dados-investimento"
             }
+          },
+          {
+            "id": "107add1db1a83438",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/consideracoes tecnicas/escolha da lingugem.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "escolha da lingugem"
+            }
           }
         ],
         "currentTab": 1
@@ -351,18 +366,20 @@
   },
   "active": "f65f0f7d545ea8b5",
   "lastOpenFiles": [
-    "Pasted Image 20260711163605_081.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/notas sobre o desenho do sistema.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design-sistema-captura-dados-investimento.md",
-    "Pasted Image 20260711162729_227.png",
-    "Pasted Image 20260711161134_168.png",
-    "Pasted Image 20260711160332_551.png",
-    "Pasted Image 20260711160304_548.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
-    "Pasted Image 20260711160139_692.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/consideracoes tecnicas/escolha da lingugem.md",
+    "documentation/imagens/Pasted Image 20260711163605_081.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design-sistema-captura-dados-investimento.md",
+    "documentation/imagens",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/desenho do banco de dados",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/notas sobre o desenho do sistema.md",
+    "documentation/imagens/Pasted Image 20260711162729_227.png",
+    "documentation/imagens/Pasted Image 20260711161134_168.png",
+    "documentation/imagens/Pasted Image 20260711160332_551.png",
+    "documentation/imagens/Pasted Image 20260711160304_548.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
+    "documentation/imagens/Pasted Image 20260711160139_692.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/consideracoes tecnicas",
-    "Pasted Image 20260711155500_103.png",
+    "documentation/imagens/Pasted Image 20260711155500_103.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md",
@@ -375,14 +392,11 @@
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas/diagrama de camadas",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas/bounded context",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/bounded context/captura de preferencias do usuário.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/bounded context/captura de preferencias do usuário.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/diagrama de camadas",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/bounded context",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ contas e transacoes/bounded context/tranferencia de dinheiro.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ contas e transacoes/diagrama de camadas",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ contas e transacoes/bounded context",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/bounded context/concessao de credito.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de noticias/diagrama de camadas/diagrama de camadas 1.md",
