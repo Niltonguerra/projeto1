@@ -6,17 +6,18 @@
       {
         "id": "0d6034a5027b8867",
         "type": "tabs",
+        "dimension": 66.57392686804452,
         "children": [
           {
-            "id": "0700b4133487bdac",
+            "id": "bd751e312ebe461f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md"
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design-sistema-captura-dados-investimento.md"
               },
               "icon": "excalidraw-icon",
-              "title": "captura de noticias-DCamadas"
+              "title": "design-sistema-captura-dados-investimento"
             }
           }
         ]
@@ -24,6 +25,7 @@
       {
         "id": "e6d7077c662de3d6",
         "type": "tabs",
+        "dimension": 33.426073131955484,
         "children": [
           {
             "id": "d763634dbac23303",
@@ -31,10 +33,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.md"
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md"
               },
               "icon": "excalidraw-icon",
-              "title": "captura de noticias"
+              "title": "captura-dados-bolsa-de-valores"
             }
           },
           {
@@ -138,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 491.5
+    "width": 362.5,
+    "collapsed": true
   },
   "right": {
     "id": "6d280047996c7655",
@@ -328,11 +331,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0700b4133487bdac",
+  "active": "bd751e312ebe461f",
   "lastOpenFiles": [
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design-sistema-captura-dados-investimento.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.png",
     "README.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.png",
@@ -353,10 +359,8 @@
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ contas e transacoes",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/bounded context/concessao de credito.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/bounded context/concessao de credito.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/diagrama de camadas",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de noticias/diagrama de camadas/diagrama de camadas 1.md",
