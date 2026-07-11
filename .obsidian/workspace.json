@@ -6,10 +6,27 @@
       {
         "id": "0d6034a5027b8867",
         "type": "tabs",
-        "dimension": 44.76284584980238,
         "children": [
           {
             "id": "0700b4133487bdac",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "captura de noticias-DCamadas"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e6d7077c662de3d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d763634dbac23303",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -19,27 +36,17 @@
               "icon": "excalidraw-icon",
               "title": "captura de noticias"
             }
-          }
-        ]
-      },
-      {
-        "id": "3df8dad34e5c871b",
-        "type": "tabs",
-        "dimension": 55.23715415019762,
-        "children": [
+          },
           {
-            "id": "df3ab7b493bd817f",
+            "id": "aa0d25a409f941e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "excalidraw-icon",
+              "title": "captura de dados de investimento-Dcamadas"
             }
           }
         ]
@@ -295,7 +302,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -322,9 +330,11 @@
   },
   "active": "0700b4133487bdac",
   "lastOpenFiles": [
-    "README.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/diagrama de camadas/captura de noticias-DCamadas.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.png",
+    "README.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas/bounded context/criptomoeda.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas/bounded context/criptomoeda.md",
@@ -344,9 +354,7 @@
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/bounded context/concessao de credito.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/bounded context/concessao de credito.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/diagrama de camadas",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/bounded context/captura de noticias.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.png",
@@ -367,7 +375,6 @@
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
     "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/divisao em camadas/diagrama de camadas.md",
     "documentation/DDD/v1/bounded context/captura de dados da bolsa de valores/captura-dados-bolsa-de-valores.md",
-    "documentation/arquitetura de software/Sem título.md",
     "Sem título.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
