@@ -1,0 +1,5 @@
+- Java/Kotlin → Contas e Transações
+- Python → Concessão de Crédito
+- Rust  → Captura de dados de noticias e investimento
+- Node.js/NestJS → Personalização
+- Go → Criptomoeda, Identidade e Acesso
