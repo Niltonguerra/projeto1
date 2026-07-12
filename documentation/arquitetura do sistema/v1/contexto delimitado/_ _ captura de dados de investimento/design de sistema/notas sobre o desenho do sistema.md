@@ -57,4 +57,4 @@ irei usar o postgres aqui porque como os dados não iram crescer indefinitivamen
 sistema de banco de dados com foco em leitura de dados  de investimentos  com o objetivo de otimizar consultas de leitura de dados.
 
 #### explicação da steak adotada:
-pretendo usar um sgbd elasticsearch por que  ele permite a pesquisa de campos no banco de dados de forma simples e facil através fa seleção e filtragem de dados do banco de dados 
+pretendo usar um sgbd elasticsearch por que  ele permite a pesquisa de campos no banco de dados de forma simples e facil através de seleção e filtragem de dados do banco de dados de forma mais facil e facil
