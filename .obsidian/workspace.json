@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "4dbbc8122579896e",
+        "id": "dd4720c199eb73ef",
         "type": "tabs",
-        "dimension": 36.96343402225755,
         "children": [
           {
             "id": "d763634dbac23303",
@@ -23,9 +22,8 @@
         ]
       },
       {
-        "id": "dd4720c199eb73ef",
+        "id": "aaf0c2ab522b0d98",
         "type": "tabs",
-        "dimension": 63.036565977742455,
         "children": [
           {
             "id": "558863ca39a3855f",
@@ -317,10 +315,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "558863ca39a3855f",
+  "active": "d763634dbac23303",
   "lastOpenFiles": [
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema/notas sobre o desenho do sistema.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema/design-sistema-captura-dados-investimento.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema",
