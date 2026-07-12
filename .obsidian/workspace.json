@@ -4,8 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "dd4720c199eb73ef",
+        "id": "4dbbc8122579896e",
         "type": "tabs",
+        "dimension": 33.62480127186009,
         "children": [
           {
             "id": "d763634dbac23303",
@@ -18,7 +19,14 @@
               "icon": "excalidraw-icon",
               "title": "captura-dados-bolsa-de-valores"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "dd4720c199eb73ef",
+        "type": "tabs",
+        "dimension": 66.3751987281399,
+        "children": [
           {
             "id": "558863ca39a3855f",
             "type": "leaf",
@@ -31,8 +39,7 @@
               "title": "Drawing 2026-07-12 07.31.05.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "right": {
     "id": "6d280047996c7655",
