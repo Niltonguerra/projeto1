@@ -204,8 +204,31 @@ Quanto **maior** o ROIC, mais eficiente a empresa é na geração de retorno sob
 - Descrição: 
 	- técnica estatística que pega múltiplos índices correlacionados (ex: ROE, ROA, ROIC são todos "rentabilidade") e comprime em componentes principais que capturam a maior parte da variância com muito menos variáveis. É o método que fundos quant usam de verdade para reduzir 50 indicadores em 4-5 fatores ortogonais.
 ##### formula para gerar esse índice:
+a formula é muito complexa por conta disso vou abstrair, é usar essa lib: ``sklearn.decomposition.PCA``
 
+exemplo de uso:
+```
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+import pandas as pd
 
+# dados: linhas = empresas, colunas = indicadores (ROE, ROA, ROIC, P/L, etc.)
+dados = pd.DataFrame({...})  # seus indicadores por empresa
+
+# Passo 1: padronizar (a lib não faz isso sozinha, você precisa fazer antes)
+scaler = StandardScaler()
+dados_padronizados = scaler.fit_transform(dados)
+
+# Passo 2: aplicar PCA
+pca = PCA(n_components=3)  # você escolhe quantos componentes quer manter
+componentes = pca.fit_transform(dados_padronizados)
+
+# Passo 3: ver quanto de variância cada componente explica
+print(pca.explained_variance_ratio_)
+
+# Passo 4: ver os pesos de cada indicador em cada componente (pra dar nome/sentido a eles)
+print(pca.components_)
+```
 
 
 
