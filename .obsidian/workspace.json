@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ae7dbdfac2a8372e",
+        "id": "661c7b59b7ded7d3",
         "type": "tabs",
         "children": [
           {
-            "id": "a30bcb08a94396d1",
+            "id": "011712e132c5eeec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/Análise Fundamentalista.md",
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Análise Fundamentalista"
+              "title": "aprofundamento analise Fundamentalista"
             }
           }
         ]
@@ -111,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 362.5,
+    "collapsed": true
   },
   "right": {
     "id": "6d280047996c7655",
@@ -301,10 +302,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a30bcb08a94396d1",
+  "active": "011712e132c5eeec",
   "lastOpenFiles": [
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/visão geral da analise de fundos.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/Análise Fundamentalista.md",
+    "aprodundamento analise.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Técnica.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Macro-Setorial_top-down.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Quantitativa-Fatorial.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
@@ -345,9 +350,6 @@
     "documentation/arquitetura do sistema/v1/visao geral do sistema/diagrama geral do sistema/mapa de dominio.md",
     "documentation/arquitetura do sistema/v1/visao geral do sistema/1-Definição de Domínio e subdomínios do Projeto.md",
     "documentation/arquitetura do sistema/v1/visao geral do sistema/2-contextos delimitados(bounded context).md",
-    "documentation/arquitetura do sistema/v1/Process Modeling/personalização de noticias/personalização de noticias.md",
-    "documentation/arquitetura do sistema/v1/Process Modeling/identidade e acesso/Identidade e Acesso.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/sistema gerenciador de criptomoedas/bounded context/criptomoeda.md",
     "Sem título.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
