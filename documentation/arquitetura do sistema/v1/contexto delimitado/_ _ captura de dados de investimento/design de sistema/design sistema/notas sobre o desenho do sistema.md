@@ -20,7 +20,7 @@
 
 **Responsabilidade:** enriquecer os dados conforme regras de negócio definidas (ex.: lógica de avaliação de empresas, lógica de previsão macroeconômica) e encaminhar para o sistema de tagueamento.
 
-**Justificativa da stack:** Java foi escolhido pela quantidade prevista de regras de negócio e manipulação/refinamento de dados. Python seria uma alternativa igualmente adequada para esse tipo de processamento, mas a tipagem forte e a orientação a objetos do Java foram consideradas mais úteis para lidar com um volume grande de regras e cálculos complexos. **Este serviço consome de Kafka** (dados vindos do Coletor) **e publica em RabbitMQ** para o sistema de Tagueamento.
+**Justificativa da stack:** Python foi escolhido porque possui muitas bibliotecas para manipulação de dados e enriquecimento de dados para fins financeiros como por exemplo a análise PCA que é uma análise de ações com base em fundamentos. **Este serviço consome de Kafka** (dados vindos do Coletor) **e publica em RabbitMQ** para o sistema de Tagueamento.
 
 ---
 
