@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/Sem título.md",
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/analise simplicada.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "analise simplicada"
             }
           }
         ]
@@ -302,7 +302,7 @@
   },
   "active": "a30bcb08a94396d1",
   "lastOpenFiles": [
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/Sem título.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/analise simplicada.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md",
