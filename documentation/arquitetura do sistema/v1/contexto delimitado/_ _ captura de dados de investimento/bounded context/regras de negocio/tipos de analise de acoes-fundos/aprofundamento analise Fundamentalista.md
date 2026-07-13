@@ -193,7 +193,7 @@ Quanto **maior** o ROIC, mais eficiente a empresa é na geração de retorno sob
 4. Ordene pela soma (menor soma = melhor colocação combinada de "barata + boa")
 
 
-> [!ponto de atenção] Title
+> [!ponto de atenção]
 > **Diferença importante em relação ao Altman e Piotroski:** a Magic Formula não gera um número absoluto interpretável isoladamente (tipo "Z > 2.99 é seguro") — ela só faz sentido **comparativamente**, dentro de um universo de empresas. Isso muda a implementação no seu sistema: Altman e Piotroski você calcula por empresa isolada; Magic Formula exige rodar sobre um conjunto de ações e reordenar toda vez que alguma entra ou sai do universo comparado.
 
 
