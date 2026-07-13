@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dd4720c199eb73ef",
+        "id": "ae7dbdfac2a8372e",
         "type": "tabs",
         "children": [
           {
-            "id": "d763634dbac23303",
+            "id": "a30bcb08a94396d1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md"
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/Sem título.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "captura-dados-bolsa-de-valores"
-            }
-          }
-        ]
-      },
-      {
-        "id": "aaf0c2ab522b0d98",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "558863ca39a3855f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-12 07.31.05.excalidraw"
+              "icon": "lucide-file",
+              "title": "Sem título"
             }
           }
         ]
@@ -315,8 +300,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "34cb262024120ce1",
+  "active": "a30bcb08a94396d1",
   "lastOpenFiles": [
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/Sem título.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/captura-dados-bolsa-de-valores.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema/notas sobre o desenho do sistema.md",
@@ -347,7 +334,6 @@
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ sistema gerenciador de criptomoedas",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/bounded context/captura de preferencias do usuário.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/diagrama de camadas",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ gestão de preferencias do usuario/bounded context",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ contas e transacoes/bounded context/tranferencia de dinheiro.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ concessao de credito/bounded context/concessao de credito.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
@@ -362,7 +348,6 @@
     "documentation/arquitetura do sistema/v1/contexto delimitado/sistema gerenciador de criptomoedas/bounded context/criptomoeda.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/gestão de preferencias do usuario/bounded context/captura de preferencias do usuário.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/contas e transacoes/bounded context/tranferencia de dinheiro.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/concessao de credito/bounded context/concessao de credito.md",
     "Sem título.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
