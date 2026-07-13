@@ -55,16 +55,39 @@
 
 ## abordagens para facilitar a leitura de uma empresa:
 
-**1. Scores compostos consagrados (o caminho mais direto pro seu caso)**
 
-- **Altman Z-Score** (Edward Altman, 1968) — combina 5 índices (liquidez, lucros retidos/ativos, EBIT/ativos, valor de mercado/dívida, vendas/ativos) numa única fórmula que gera um número prevendo probabilidade de falência. É citado até hoje em análise de crédito.
-- **Piotroski F-Score** (Joseph Piotroski, 2000) — pega 9 critérios binários (ROA positivo, fluxo de caixa operacional positivo, ROA crescente, alavancagem caindo, liquidez corrente subindo, etc.) e soma 1 ponto para cada critério atendido. Resultado: um score de 0 a 9. Empresas com F-Score alto (8-9) historicamente superam o mercado — isso tem paper acadêmico com dados de décadas sustentando.
-- **Magic Formula** (Joel Greenblatt, "The Little Book That Beats the Market") — reduz tudo a apenas 2 índices: Earnings Yield (EBIT/Enterprise Value, mede "barateza") e ROIC (mede "qualidade"). Rankeia empresas nos dois critérios, soma os rankings, e pronto — 2 índices substituindo dezenas.
+### **1. Scores compostos consagrados
 
-**2. Redução estatística de dimensionalidade**
+#### **Altman Z-Score** (Edward Altman, 1968) 
+- Descrição: 
+	- combina 5 índices (liquidez, lucros retidos/ativos, EBIT/ativos, valor de mercado/dívida, vendas/ativos) numa única fórmula que gera um número prevendo probabilidade de falência. É citado até hoje em análise de crédito.
+##### formula para gerar esse índice:
 
-- **Análise Fatorial / PCA (Principal Component Analysis)** — técnica estatística que pega múltiplos índices correlacionados (ex: ROE, ROA, ROIC são todos "rentabilidade") e comprime em componentes principais que capturam a maior parte da variância com muito menos variáveis. É o método que fundos quant usam de verdade para reduzir 50 indicadores em 4-5 fatores ortogonais.
 
-**3. Decomposição hierárquica (não reduz quantidade, mas organiza)**
 
-- **Análise DuPont** — quebra ROE em 3 componentes (Margem Líquida × Giro de Ativos × Alavancagem Financeira), permitindo entender _por que_ o ROE é alto ou baixo, sem adicionar novos índices.
+
+#### **Piotroski F-Score** (Joseph Piotroski, 2000) 
+- Descrição:  
+	- pega 9 critérios binários (ROA positivo, fluxo de caixa operacional positivo, ROA crescente, alavancagem caindo, liquidez corrente subindo, etc.) e soma 1 ponto para cada critério atendido. Resultado: um score de 0 a 9. Empresas com F-Score alto (8-9) historicamente superam o mercado — isso tem paper acadêmico com dados de décadas sustentando.
+##### formula para gerar esse índice:
+
+
+
+
+
+#### **Magic Formula** (Joel Greenblatt, "The Little Book That Beats the Market") 
+- Descrição: 
+	- reduz tudo a apenas 2 índices: Earnings Yield (EBIT/Enterprise Value, mede "barateza") e ROIC (mede "qualidade"). Rankeia empresas nos dois critérios, soma os rankings, e pronto — 2 índices substituindo dezenas.
+##### formula para gerar esse índice:
+
+
+
+
+
+
+### **2. Redução estatística de dimensionalidade**
+#### **Análise Fatorial / PCA (Principal Component Analysis)** 
+- Descrição: 
+	- técnica estatística que pega múltiplos índices correlacionados (ex: ROE, ROA, ROIC são todos "rentabilidade") e comprime em componentes principais que capturam a maior parte da variância com muito menos variáveis. É o método que fundos quant usam de verdade para reduzir 50 indicadores em 4-5 fatores ortogonais.
+##### formula para gerar esse índice:
+
