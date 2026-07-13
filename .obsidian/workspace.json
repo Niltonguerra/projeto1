@@ -111,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 366.5
   },
   "right": {
     "id": "6d280047996c7655",
@@ -304,9 +303,9 @@
   },
   "active": "011712e132c5eeec",
   "lastOpenFiles": [
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Macro-Setorial_top-down.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/0-visao geral da analise de fundos.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/visão geral da analise de fundos.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Macro-Setorial_top-down.md",
     "aprodundamento analise.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Técnica.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Quantitativa-Fatorial.md",
