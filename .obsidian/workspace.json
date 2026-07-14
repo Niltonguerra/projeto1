@@ -323,8 +323,9 @@
   },
   "active": "db5e8769f0b3891f",
   "lastOpenFiles": [
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/lembrar de usar o airflow nesse bounded context.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades/entidade empresa.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/0-visao geral da analise de fundos.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.png",
@@ -368,7 +369,6 @@
     "documentation/arquitetura do sistema/v1/contexto delimitado/captura de noticias/bounded context/captura de noticias.md",
     "documentation/arquitetura do sistema/v1/Process Modeling/personalizacao de sugestoes ded investimento para o usuario/personalizacao de sugestoes de investimento para o usuário.md",
     "documentation/arquitetura do sistema/v1/visao geral do sistema/diagrama geral do sistema/mapa de dominio.md",
-    "documentation/arquitetura do sistema/v1/visao geral do sistema/1-Definição de Domínio e subdomínios do Projeto.md",
     "Sem título.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"

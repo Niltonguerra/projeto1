@@ -58,8 +58,6 @@ public class DadosFinanceirosPeriodo {
 
 ### Value Object: `DadosMercado` (atualizado com frequência, não historicizado do mesmo jeito)
 
-java
-
 ```java
 public class DadosMercado {
     private BigDecimal precoAtual;
