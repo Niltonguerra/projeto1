@@ -100,10 +100,3 @@ public class MagicFormulaRanking {
 
 
 
-
-
-
-
-
-
-
