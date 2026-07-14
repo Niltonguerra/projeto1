@@ -15,6 +15,7 @@ public class Empresa {
 
 
 ### Value Object: `Setor`
+
 ```java
 public enum Setor {
     FINANCEIRO(false, false),      // elegível Altman?, elegível MagicFormula?
@@ -32,6 +33,7 @@ public enum Setor {
 
 
 ### Value Object: `DadosFinanceirosPeriodo` (snapshot, imutável)
+
 ```java
 public class DadosFinanceirosPeriodo {
     private Periodo periodo;              // ano + trimestre (ou "anual")
@@ -70,8 +72,6 @@ public class DadosMercado {
 
 
 ## definir os scores como strategys ao invés de dados em um sgbd
-ex:
-
 ```java
 public interface ScoreCalculator {
     boolean isElegivel(Setor setor);
