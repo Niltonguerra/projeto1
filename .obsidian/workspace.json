@@ -11,13 +11,80 @@
             "id": "67847ee81c750c19",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "aprofundamento analise Fundamentalista"
+            }
+          },
+          {
+            "id": "c1ce111badb970a1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema/design-sistema-captura-dados-investimento.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "design-sistema-captura-dados-investimento"
+            }
+          },
+          {
+            "id": "679d667807d96a5a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-12 07.31.05.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "024c5220f17d3a9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2ccf26f2148380f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "aprofundamento analise Fundamentalista"
+            }
+          },
+          {
+            "id": "02c386587011d48e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades/entidade empresa.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "entidade empresa"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -295,27 +362,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "67847ee81c750c19",
+  "active": "02c386587011d48e",
   "lastOpenFiles": [
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades/entidade empresa.md",
-    "README 1.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/0-visao geral da analise de fundos.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema/design-sistema-captura-dados-investimento.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema/notas sobre o desenho do sistema.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades/entidade empresa.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/0-visao geral da analise de fundos.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Macro-Setorial_top-down.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Quantitativa-Fatorial.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Técnica.md",
+    "README 1.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de noticias/lembrar de usar o airflow nesse bounded context.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema/notas sobre o desenho do sistema.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema/design-sistema-captura-dados-investimento.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/divisao em camadas/captura de dados de investimento-Dcamadas.md",
     "aprodundamento analise.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema",
     "Pasted Image 20260712065157_148.png",
     "README.md",

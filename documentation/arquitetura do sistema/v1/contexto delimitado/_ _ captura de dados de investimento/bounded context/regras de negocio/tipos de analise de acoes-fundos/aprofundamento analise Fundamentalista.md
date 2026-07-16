@@ -10,7 +10,7 @@
 - **Endividamento/Alavancagem**
 	- Dívida Líquida/EBITDA — capacidade de pagamento da dívida
 	- Dívida Líquida/Patrimônio Líquido
-	- Índice de Cobertura de Juros (EBIT/Despesa financeira)
+	- Índice de Cobertura de Juros (EBIT/Desp[[aprofundamento analise Fundamentalista]]esa financeira)
 	- Grau de Alavancagem Financeira
 
 - **Liquidez**
