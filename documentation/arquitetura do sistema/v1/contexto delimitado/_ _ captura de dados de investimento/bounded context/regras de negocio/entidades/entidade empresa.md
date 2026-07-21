@@ -39,6 +39,7 @@ public class DadosFinanceirosPeriodo {
     private Periodo periodo;              // ano + trimestre (ou "anual")
     private BigDecimal ativoTotal;
     private BigDecimal ativoCirculante;
+    private BigDecimal ativoImobilizadoLiquido;
     private BigDecimal passivoCirculante;
     private BigDecimal passivoTotal;
     private BigDecimal patrimonioLiquido;
@@ -52,6 +53,8 @@ public class DadosFinanceirosPeriodo {
     private BigDecimal dividaTotal;
     private BigDecimal caixaEEquivalentes;
     private BigDecimal lucrosRetidos;
+    private BigDecimal despesaFinanceira; // NOVO — para NOPLAT 
+    private BigDecimal impostosPagos; // NOVO — para NOPLAT
     private long numeroAcoesCirculacao;
 }
 ```
