@@ -38,8 +38,7 @@
               "title": "entidade empresa"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "935d56e9133a1e73",
@@ -122,7 +121,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
@@ -339,10 +340,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "02c386587011d48e",
+  "active": "62b0fb1b192d99a2",
   "lastOpenFiles": [
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades/entidade empresa.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/0-visao geral da analise de fundos.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema/notas sobre o desenho do sistema.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/design de sistema/design sistema/design-sistema-captura-dados-investimento.md",
