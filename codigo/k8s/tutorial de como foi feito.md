@@ -55,3 +55,64 @@ helm version
 ```
 kind create cluster --name banco-simplificado
 ```
+
+
+
+## criar os secrets do ambiente
+bash
+# Secret do Postgres
+
+3.2 Postgres (leitura — CQRS)
+```bash
+kubectl create secret generic postgres-secret \
+--from-literal=username=banco_user \
+--from-literal=password=sua_senha_aqui \
+-n infra
+```
+
+
+3.2 Elasticsearch (leitura — CQRS)
+```bash
+helm repo add elastic https://helm.elastic.co
+helm install elasticsearch elastic/elasticsearch \
+--namespace infra \
+--set replicas=1 \
+--set resources.requests.memory=512Mi \
+--set resources.limits.memory=1Gi
+```
+
+
+3.3 RabbitMQ (broker principal)
+
+```bash
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm install rabbitmq bitnami/rabbitmq \
+--namespace infra \
+--set auth.username=admin \
+--set auth.password=sua_senha_aqui \
+--set replicaCount=1
+```
+
+3.4 Kafka (path específico)
+
+```bash
+helm install kafka bitnami/kafka \
+--namespace infra \
+--set replicaCount=1 \
+--set zookeeper.replicaCount=1
+```
+
+
+## comandos utéis
+
+criar namespaces:
+```bash 
+kubectl apply -f namespaces/infra.yaml
+```
+
+verificar namespaces criados:
+``` bash
+kubectl get namespaces
+```
+
+
