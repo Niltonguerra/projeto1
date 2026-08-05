@@ -37,6 +37,7 @@ sudo mv kind /usr/local/bin/
 //confirmar instalação
 kind version
 ```
+
 ```
 //instalador:
 curl -fsSL https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
