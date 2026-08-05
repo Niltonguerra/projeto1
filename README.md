@@ -7,4 +7,22 @@ toda a documentação foi feita dentro do programa gratuito chamado obsidian, pa
 - pronto, agora você pode ler a documentação acessando a pasta documentation.
 
 ## PONTOS IMPORTANTES:
-o objetivo desse projeto é mostrar meus conhecimentos de programação então irei tomar decisões com esse core de decisões, tenha isso em mente quando estiver vendo o design do sistema pois se não você não vai entender muito bem o porque de eu fazer algumas coisas.
+o objetivo desse projeto é mostrar meus conhecimentos de programação então irei tomar decisões com esse core de decisões, tenha isso em mente quando estiver vendo o design do sistema, pois se não você não vai entender muito bem o porque de eu fazer algumas coisas.
+
+
+
+## comandos utéis o backend:
+- rodar o backend:
+````bash
+    make bootstrap && make deploy
+````
+
+- rodar o frontend:
+````bash
+    pnpm dev
+````
+
+- rodar o mobile:
+````bash
+    flutter run
+````

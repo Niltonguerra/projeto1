@@ -160,8 +160,6 @@ kubectl get all -n infra
 
 
 
-
-
 ## Referências
 - [Kubernetes Docs](https://kubernetes.io/docs/) 
 - [Helm Hub](https://artifacthub.io/)
