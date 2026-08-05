@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"/home/nilton/.nvm/versions/node/v20.20.2/bin/node /home/nilton/codigos/estudosAutodidata/projeto1/code/frontend/web/provider/teste123/node_modules/.pnpm/typescript@5.9.3/node_modules/typescript/bin/tsc --project /home/nilton/codigos/estudosAutodidata/projeto1/code/frontend/web/provider/teste123/node_modules/.federation/tsconfig.b088a299f979f5cc49d3acc6982eeb9d.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "/home/nilton/.nvm/versions/node/v20.20.2/bin/node /home/nilton/codigos/estudosAutodidata/projeto1/code/frontend/web/provider/teste123/node_modules/.pnpm/typescript@5.9.3/node_modules/typescript/bin/tsc --project /home/nilton/codigos/estudosAutodidata/projeto1/code/frontend/web/provider/teste123/node_modules/.federation/tsconfig.b088a299f979f5cc49d3acc6982eeb9d.json"
+    },
+    "timestamp": 1785966219807
+  }
+}
