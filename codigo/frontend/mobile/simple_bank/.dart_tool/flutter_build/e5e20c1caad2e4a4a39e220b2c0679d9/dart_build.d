@@ -1,1 +1,0 @@
- C:\\Users\\nilto\\OneDrive\\Documentos\\programacao\\projeto1\\codigo\\frontend\\mobile\\simple_bank\\.dart_tool\\flutter_build\\e5e20c1caad2e4a4a39e220b2c0679d9\\dart_build_result.json: 
