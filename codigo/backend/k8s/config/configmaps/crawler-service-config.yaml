@@ -1,0 +1,10 @@
+# config/configmaps/crawler-service-config.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: crawler-service-config
+  namespace: services
+data:
+  NODE_ENV: "production"
+  ELASTICSEARCH_URL: "http://elasticsearch.infra.svc.cluster.local:9200"
+  RABBITMQ_EXCHANGE: "bank.events"

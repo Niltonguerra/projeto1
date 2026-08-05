@@ -1,0 +1,5 @@
+auth:
+  username: admin
+  password: senha
+
+replicaCount: 1

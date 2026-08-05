@@ -1,0 +1,20 @@
+# ingress/api-gateway.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: api-gateway
+  namespace: services
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+    - host: banco.local  # adicionar em /etc/hosts no dev
+      http:
+        paths:
+          - path: /crawler-service
+            pathType: Prefix
+            backend:
+              service:
+                name: crawler-service
+                port:
+                  number: 3000
