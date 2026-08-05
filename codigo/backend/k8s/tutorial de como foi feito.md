@@ -7,6 +7,37 @@
 | **Docker**                | Construção das imagens dos serviços que serão executados no cluster Kubernetes.                                                                        |
 | **Skaffold** *(opcional)* | Automatiza o ciclo de desenvolvimento no Kubernetes, realizando build, deploy e atualização (*hot reload*) das aplicações durante o desenvolvimento.   |
 
+
+## Design de infraestrutura:
+```
+k8s/
+├── namespaces/
+│   ├── infra.yaml
+│   └── services.yaml
+├── infra/
+│   └──  postgres.yaml
+├── helm/
+│   ├── elasticsearch-values.yaml   # values do helm
+│   ├── rabbitmq-values.yaml
+│   └── kafka-values.yaml
+├── services/
+│   ├── account-service.yaml
+│   ├── payment-service.yaml
+│   ├── transaction-service.yaml
+│   └── ...
+├── config/
+│   ├── secrets/
+│   └── configmaps/
+├── ingress/
+│   └── api-gateway.yaml
+├── istio/
+│   └── PeerAuthentication.yaml
+└── Makefile  # atalhos para apply, delete, logs
+```
+
+
+
+
 ### como instalar:
 ```
 //instalador:
@@ -52,17 +83,25 @@ helm version
 
 
 ## comandos para criar o sistema:
+
+- criar o cluster
 ```
 kind create cluster --name banco-simplificado
 ```
 
+- criar e configurar a comunicação mTls
+  - Istio é a opção mais completa
+    - Com Istio ativo, o mTLS entre pods do namespace services é automático via sidecar.
+````bash
+istioctl install --set profile=demo -y
+kubectl label namespace services istio-injection=enabled
+````
 
 
 ## criar os secrets do ambiente
-bash
-# Secret do Postgres
 
-3.2 Postgres (leitura — CQRS)
+### Secret do Postgres
+Postgres (leitura — CQRS)
 ```bash
 kubectl create secret generic postgres-secret \
 --from-literal=username=banco_user \
@@ -70,8 +109,8 @@ kubectl create secret generic postgres-secret \
 -n infra
 ```
 
-
-3.2 Elasticsearch (leitura — CQRS)
+### comando para criar Chart do elasticSearch
+Elasticsearch (leitura — CQRS)
 ```bash
 helm repo add elastic https://helm.elastic.co
 helm install elasticsearch elastic/elasticsearch \
@@ -81,9 +120,8 @@ helm install elasticsearch elastic/elasticsearch \
 --set resources.limits.memory=1Gi
 ```
 
-
-3.3 RabbitMQ (broker principal)
-
+### comandos para criar  Chart do rabbitMQ
+broker principal
 ```bash
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm install rabbitmq bitnami/rabbitmq \
@@ -93,8 +131,9 @@ helm install rabbitmq bitnami/rabbitmq \
 --set replicaCount=1
 ```
 
-3.4 Kafka (path específico)
 
+### comandos para criar  Chart do Kafka
+path específico
 ```bash
 helm install kafka bitnami/kafka \
 --namespace infra \
@@ -114,5 +153,17 @@ verificar namespaces criados:
 ``` bash
 kubectl get namespaces
 ```
+lista todos os recursos no cluster:
+```bash
+kubectl get all -n infra
+```
 
 
+
+
+
+## Referências
+- [Kubernetes Docs](https://kubernetes.io/docs/) 
+- [Helm Hub](https://artifacthub.io/)
+- [Istio Getting Started](https://istio.io/latest/docs/setup/getting-started/)
+- [kind — Kubernetes in Docker](https://kind.sigs.k8s.io/)
