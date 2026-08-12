@@ -1,2 +1,11 @@
 services:
-  
+  scheduler-service:
+    build:
+      context: .
+      target: development
+    volumes:
+      - .:/app
+      - cargo-cache:/usr/local/cargo/registry
+
+volumes:
+  cargo-cache:
