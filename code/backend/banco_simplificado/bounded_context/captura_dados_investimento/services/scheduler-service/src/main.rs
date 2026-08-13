@@ -1,4 +1,8 @@
+mod scheduler;
+mod jobs;
+
 #[tokio::main]
 async fn main() {
-    println!("Scheduler iniciado");
+    tracing_subscriber::fmt::init();
+    scheduler::start().await;
 }
