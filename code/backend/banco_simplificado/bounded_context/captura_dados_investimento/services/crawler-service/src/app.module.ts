@@ -1,12 +1,21 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import {TerminusModule} from "@nestjs/terminus";
-import {HealthController} from "./health/health.controller";
+import {HealthController} from "./health.controller";
+import { ConfigModule } from '@nestjs/config';
+import {BrapiController} from "./brapi/controllers/brapi.controller";
+
 
 @Module({
-  imports: [TerminusModule],
-  controllers: [AppController,HealthController],
-  providers: [AppService],
+  imports: [
+      ConfigModule.forRoot({
+          isGlobal: true,
+      }),
+      TerminusModule
+  ],
+  controllers: [
+      HealthController,
+      BrapiController
+  ],
+  providers: [],
 })
 export class AppModule {}

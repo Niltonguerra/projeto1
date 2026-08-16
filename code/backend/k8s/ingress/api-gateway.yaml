@@ -4,17 +4,24 @@ metadata:
   name: api-gateway
   namespace: services
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
 spec:
   ingressClassName: nginx
   rules:
     - host: banco.local
       http:
         paths:
-          - path: /crawler
-            pathType: Prefix
+          - path: /crawler(/|$)(.*)
+            pathType: ImplementationSpecific
             backend:
               service:
                 name: crawler-service
                 port:
-                  number: 3000
+                  number: 3500
+#          - path: /teste(/|$)(.*)
+#            pathType: ImplementationSpecific
+#            backend:
+#              service:
+#                name: teste
+#                port:
+#                  number: 2999

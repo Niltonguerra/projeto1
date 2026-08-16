@@ -15,23 +15,23 @@ spec:
     spec:
       containers:
         - name: crawler-service
-          image: banco/crawler-service:latest
+          image: banco/crawler-service:1.0.1
           imagePullPolicy: Never   # obrigatório pra imagem local no kind
           ports:
-            - containerPort: 3000
+            - containerPort: 3500
           env:
             - name: PORT
-              value: "3000"
+              value: "3500"
           readinessProbe:
             httpGet:
               path: /health
-              port: 3000
+              port: 3500
             initialDelaySeconds: 10
             periodSeconds: 5
           livenessProbe:
             httpGet:
               path: /health
-              port: 3000
+              port: 3500
             initialDelaySeconds: 20
             periodSeconds: 10
 ---
@@ -44,5 +44,5 @@ spec:
   selector:
     app: crawler-service
   ports:
-    - port: 3000
-      targetPort: 3000
+    - port: 3500
+      targetPort: 3500

@@ -1,10 +1,11 @@
-SERVICE_NAME := scheduler-service
+SERVICE_NAME := crawler-service
+PORT_SERVICE := 3500
+VERSION := 1.0.1
 IMAGE_NAME := banco/$(SERVICE_NAME)
 CLUSTER_NAME := banco-simplificado
 ROOT_DIR := $(shell cd $(dir $(abspath $(lastword $(MAKEFILE_LIST)))) && cd ../../../../../ && pwd)
 K8S_DIR := $(ROOT_DIR)/k8s/services
-PORT_SERVICE := 3501
-VERSION := 1.0.0
+
 
 .PHONY: help build dev load deploy scaffold logs list
 

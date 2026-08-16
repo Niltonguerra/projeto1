@@ -1,5 +1,8 @@
-- esse comandos não precisão ser executados na mão, pois criei um makefile, mas para consulta fica aqui como referência.
+- **a forma atualizada e correta para criar e atualizar o service é seguindo os passos
+desse [como-deployar-um-service.md](./como-deployar-um-service.md)**
 
+- esse comandos não precisão ser executados na mão, pois criei um
+  makefile que abstrai a lógica, mas para consulta fica aqui como referência.
 ## comandos:
 
 Deploy de um serviço no cluster (kind)

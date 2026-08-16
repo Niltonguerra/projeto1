@@ -1,24 +1,45 @@
 CLUSTER_NAME := banco-simplificado
+SERVICE ?=
+VERSION ?=
 
 .PHONY: help bootstrap destroy namespaces secrets infra helm services ingress istio status cluster load deploy proxy ingress-controller
 
 help:
-	@echo "Comandos disponíveis:"
-	@echo "  make bootstrap          - Cria todo o ambiente"
+	@echo ""
+	@echo "╔══════════════════════════════════════════════════════════════╗"
+	@echo "║              banco-simplificado — Makefile                  ║"
+	@echo "╚══════════════════════════════════════════════════════════════╝"
+	@echo ""
+	@echo "► CLUSTER"
+	@echo "  make cluster            - Cria o cluster kind"
+	@echo "  make bootstrap          - Cria todo o ambiente (cluster + infra + serviços)"
 	@echo "  make destroy            - Remove o cluster"
+	@echo "  make status             - Lista todos os recursos do cluster"
+	@echo ""
+	@echo "► INFRAESTRUTURA"
 	@echo "  make namespaces         - Cria os namespaces"
 	@echo "  make secrets            - Cria os secrets"
 	@echo "  make helm               - Instala RabbitMQ, Kafka e Elasticsearch"
 	@echo "  make infra              - Aplica infraestrutura própria"
-	@echo "  make services           - Publica os microsserviços"
-	@echo "  make ingress            - Aplica o Ingress"
 	@echo "  make ingress-controller - Instala o NGINX Ingress Controller"
 	@echo "  make istio              - Instala e configura o Istio"
-	@echo "  make status             - Lista os recursos"
-	@echo "  make cluster            - Cria o cluster kind"
-	@echo "  make load               - Carrega imagens locais no kind"
-	@echo "  make deploy             - Publica serviços e ingress"
-	@echo "  make proxy              - Expõe o Ingress no Windows via WSL (porta 8080)"
+	@echo ""
+	@echo "► DEPLOY"
+	@echo "  make deploy             - Load + serviços + ingress + restart"
+	@echo "  make load               - Carrega todas as imagens banco/* no kind"
+	@echo "  make services           - Aplica os manifests dos microsserviços"
+	@echo "  make ingress            - Aplica as regras de ingress"
+	@echo ""
+	@echo "► ACESSO"
+	@echo "  make proxy              - Expõe o Ingress na porta 8080 (WSL → Windows)"
+	@echo ""
+	@echo "► IMAGENS"
+	@echo "  make list-imagens-cluster        - Lista imagens banco/* no Docker local"
+	@echo "  make remove-image SERVICE=<nome> VERSION=<tag>  - Remove imagem do kind e Docker"
+	@echo ""
+	@echo "► MONITORAMENTO"
+	@echo "  make list               - Lista pods no namespace services"
+	@echo ""
 
 bootstrap: cluster namespaces secrets helm infra ingress-controller
 
@@ -26,8 +47,9 @@ deploy: load services ingress
 	kubectl rollout restart deployment -n services
 
 load:
-	@for image in banco/crawler-service banco/account-service; do \
-		kind load docker-image $$image:latest --name $(CLUSTER_NAME); \
+	@for image in $$(docker images --format "{{.Repository}}:{{.Tag}}" | grep "^banco/"); do \
+	    echo "Carregando $$image no kind..."; \
+	    kind load docker-image $$image --name $(CLUSTER_NAME); \
 	done
 
 cluster:
@@ -94,3 +116,18 @@ status:
 
 destroy:
 	kind delete cluster --name $(CLUSTER_NAME)
+
+list-imagens-cluster:
+	docker images | grep banco/
+
+remove-image:
+	@if [ -z "$(SERVICE)" ]; then \
+		echo "Erro: informe o serviço. Exemplo: make rmi SERVICE=teste VERSION=10.100.100"; \
+		exit 1; \
+	fi
+	docker exec -it $(CLUSTER_NAME)-control-plane crictl rmi banco/$(SERVICE):$(VERSION)
+	docker rmi banco/$(SERVICE):$(VERSION) || true
+
+list:
+	kubectl get pods -n services
+

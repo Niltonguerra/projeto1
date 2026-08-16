@@ -1,5 +1,6 @@
 use tokio_cron_scheduler::{JobScheduler, Job};
 use crate::jobs;
+use tokio::signal;
 
 pub async fn start() {
     eprintln!(">>> Iniciando scheduler");
@@ -20,10 +21,19 @@ pub async fn start() {
     scheduler.start().await.unwrap();
     eprintln!(">>> Scheduler started");
 
-    tokio::signal::unix::signal(tokio::signal::unix::SignalKind::terminate())
-        .unwrap()
-        .recv()
-        .await;
+    tokio::select! {
+        _ = signal::ctrl_c() => {
+            eprintln!(">>> SIGINT recebido");
+        }
+        _ = async {
+            signal::unix::signal(signal::unix::SignalKind::terminate())
+                .unwrap()
+                .recv()
+                .await;
+        } => {
+            eprintln!(">>> SIGTERM recebido");
+        }
+    }
 
     eprintln!(">>> Sinal recebido");
 }
