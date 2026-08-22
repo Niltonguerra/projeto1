@@ -1,0 +1,13 @@
+info:
+  name: crawler-service
+  type: folder
+  seq: 1
+
+request:
+  auth: inherit
+  variables:
+    - name: localUrl
+      value: http://localhost:3500
+      description: |-
+        url para acessar o service local via 
+        docker compose

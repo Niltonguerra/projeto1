@@ -1,0 +1,7 @@
+info:
+  name: captura de dados de investimento
+  type: folder
+  seq: 1
+
+request:
+  auth: inherit

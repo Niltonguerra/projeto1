@@ -3,6 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-service" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/teste-criar-service-em-microservices" vcs="Git" />
   </component>
 </project>
