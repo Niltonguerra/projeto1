@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5,
-    "collapsed": true
+    "width": 366.5
   },
   "right": {
     "id": "6d280047996c7655",
@@ -323,8 +322,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d4af500994c6059",
+  "active": "95d1c939de81c5c0",
   "lastOpenFiles": [
+    "documentation/arquitetura do sistema/v1/Process Modeling/identidade e acesso/Identidade e Acesso.md",
+    "conflict-files-obsidian-git.md",
     "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento/scheduler-service/folder.yml",
     "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento/crawler-service/testeDeConexão.yml",
     "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento/crawler-service/folder.yml",
@@ -335,7 +336,6 @@
     "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento",
     "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context",
     "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/opencollection.yml",
-    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/design-sistema-captura-dados-investimento.md",
     "code/backend/k8s/como-deployar-um-service.md",
@@ -370,7 +370,6 @@
     "codigo/frontend/mobile/simple_bank/README.md",
     "codigo/frontend/mobile/simple_bank/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
     "codigo/frontend/web/simple_bank/README.md",
-    "codigo/backend/k8s/tutorial de como foi feito.md",
     "Sem título.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
