@@ -11,10 +11,13 @@ K8S_DIR := $(ROOT_DIR)/k8s/services
 
 help:
 	@echo "Comandos disponíveis:"
-	@echo "  make build   - Builda a imagem de produção"
-	@echo "  make dev     - Sobe o serviço em modo desenvolvimento"
-	@echo "  make load    - Carrega a imagem no cluster Kind"
-	@echo "  make deploy  - Build + load + apply no Kind"
+	@echo "  make build      - Builda a imagem de produção"
+	@echo "  make run-dev    - Sobe o serviço em modo desenvolvimento"
+	@echo "  make load       - Carrega a imagem no cluster Kind"
+	@echo "  make scaffold   - Gera os arquivos K8s do serviço"
+	@echo "  make deploy     - Build + load + apply no Kind"
+	@echo "  make logs       - Exibe os logs do deployment"
+	@echo "  make list       - Lista os pods do namespace services"
 
 build:
 	docker build --target production -t $(IMAGE_NAME):$(VERSION) .
