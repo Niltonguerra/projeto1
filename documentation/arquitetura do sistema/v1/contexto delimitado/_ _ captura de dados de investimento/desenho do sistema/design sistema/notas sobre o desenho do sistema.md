@@ -4,7 +4,7 @@
 
 **Responsabilidade:** agendar as coletas de dados.
 
-**Justificativa da stack:** Rust foi escolhido por interesse pessoal de estudo, não por exigência técnica do problema. Para um agendador, qualquer linguagem atenderia igualmente bem — não há requisito funcional que torne Rust superior às alternativas aqui. A comunicação com os demais serviços será feita via RabbitMQ, padrão de mensageria adotado no restante do sistema.
+**Justificativa da stack:** AirFlow facilita o agendamento e visibilidade da pipeline.
 
 ---
 
@@ -12,7 +12,7 @@
 
 **Responsabilidade:** coletar dados externos (Banco Central, Brapi, CVM, IBGE) e encaminhar para o sistema de enriquecimento.
 
-**Justificativa da stack:** NestJS foi escolhido por permitir uso de TypeScript, o que possibilita validação de propriedades e chaves dos diversos formatos de dados recebidos das diferentes fontes — um facilitador de segurança e consistência a longo prazo. Java também seria uma opção viável. A decisão final por NestJS considerou também o uso planejado de Kafka como mensageria neste serviço específico (motivado por interesse em estudar a ferramenta), além de maior vivência prática com o ecossistema Node/NestJS. **O Coletor publica os dados coletados em Kafka**, consumido pelo sistema de Enriquecimento.
+**Justificativa da stack:** Python com FastAPI foi escolhido por permitir mais facilidade na manipulação de dados através diversas libs que ele possui, como pandas e maior facilidade e integração com selenium
 
 ---
 

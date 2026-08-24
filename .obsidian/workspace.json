@@ -11,28 +11,18 @@
             "id": "73ee52ff13512896",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/design-sistema-captura-dados-investimento.md"
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/notas sobre o desenho do sistema.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "design-sistema-captura-dados-investimento"
-            }
-          },
-          {
-            "id": "2d4af500994c6059",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "documentation/arquitetura do sistema/v1/Process Modeling/identidade e acesso/Identidade e Acesso.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Identidade e Acesso"
+              "icon": "lucide-file",
+              "title": "notas sobre o desenho do sistema"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -322,8 +312,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95d1c939de81c5c0",
+  "active": "73ee52ff13512896",
   "lastOpenFiles": [
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/design-sistema-captura-dados-investimento.md",
+    "Pasted Image 20260824190713_103.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/divisao em camadas/captura de dados de investimento-Dcamadas.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/divisao em camadas/captura de dados de investimento-Dcamadas.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Técnica.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Quantitativa-Fatorial.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Macro-Setorial_top-down.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/0-visao geral da analise de fundos.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades/entidade empresa.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/notas sobre o desenho do sistema.md",
     "documentation/arquitetura do sistema/v1/Process Modeling/identidade e acesso/Identidade e Acesso.md",
     "conflict-files-obsidian-git.md",
     "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento/scheduler-service/folder.yml",
@@ -336,19 +339,8 @@
     "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento",
     "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context",
     "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/opencollection.yml",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/design-sistema-captura-dados-investimento.md",
     "code/backend/k8s/como-deployar-um-service.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/divisao em camadas/captura de dados de investimento-Dcamadas.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/divisao em camadas/captura de dados de investimento-Dcamadas.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/notas sobre o desenho do sistema.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md",
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/scheduler-service/README.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/0-visao geral da analise de fundos.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Técnica.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Quantitativa-Fatorial.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Macro-Setorial_top-down.md",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.png",
     "README.md",
     "code/frontend/web/provider/teste123/README.md",
@@ -362,14 +354,11 @@
     "code/frontend/mobile/simple_bank/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
     "code/frontend/mobile/simple_bank/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
     "code/frontend/mobile/simple_bank/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
-    "code/frontend/mobile/simple_bank/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png",
     "code/frontend/mobile/simple_bank/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
     "code/frontend/web/simple_bank/README.md",
     "code/frontend/mobile/simple_bank/README.md",
     "code/backend/k8s/tutorial de como foi feito.md",
     "codigo/frontend/mobile/simple_bank/README.md",
-    "codigo/frontend/mobile/simple_bank/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
-    "codigo/frontend/web/simple_bank/README.md",
     "Sem título.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
