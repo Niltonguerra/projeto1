@@ -1,0 +1,43 @@
+# k8s/helm/airflow-values.yaml
+
+executor: KubernetesExecutor
+
+postgresql:
+  enabled: false
+
+redis:
+  enabled: false
+
+data:
+  metadataConnection:
+    user: banco_user
+    pass: sua_senha_aqui
+    host: postgres.infra.svc.cluster.local
+    port: 5432
+    db: airflow
+
+createUserJob:
+  defaultUser:
+    enabled: true
+    username: admin
+    password: admin
+    role: Admin
+    email: niltondg.30@gmail.com
+    firstName: Admin
+    lastName: User
+
+webserver:
+  resources:
+    requests:
+      memory: 512Mi
+      cpu: 250m
+
+scheduler:
+  resources:
+    requests:
+      memory: 512Mi
+      cpu: 250m
+
+dags:
+  persistence:
+    enabled: false

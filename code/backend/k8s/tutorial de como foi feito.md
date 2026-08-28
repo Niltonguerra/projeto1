@@ -132,6 +132,13 @@ helm install rabbitmq bitnami/rabbitmq \
 ```
 
 
+### comando para criar o chart do airflow
+```bash
+helm install airflow apache-airflow/airflow \
+  --namespace infra \
+  --values k8s/helm/airflow-values.yaml
+```
+
 ### comandos para criar  Chart do Kafka
 path específico
 ```bash

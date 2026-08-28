@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crawler-analyst-investment-service
+  namespace: services
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: crawler-analyst-investment-service
+  template:
+    metadata:
+      labels:
+        app: crawler-analyst-investment-service
+    spec:
+      containers:
+        - name: crawler-analyst-investment-service
+          image: banco/crawler-analyst-investment-service:1.0.0
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 3500
+          env:
+            - name: PORT
+              value: "3500"
+            - name: BRAPI_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: brapi-secret
+                  key: token
+                  optional: true  # não quebra o pod se o secret ainda não existir
+          envFrom:
+            - configMapRef:
+                name: crawler-analyst-investment-service-config
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 3500
+            initialDelaySeconds: 10
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 3500
+            initialDelaySeconds: 20
+            periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: crawler-analyst-investment-service
+  namespace: services
+spec:
+  selector:
+    app: crawler-analyst-investment-service
+  ports:
+    - port: 3500
+      targetPort: 3500
