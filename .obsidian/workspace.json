@@ -13,13 +13,76 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentation/insumos/fontes de dados.md",
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades/entidade empresa.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "fontes de dados"
+              "title": "entidade empresa"
+            }
+          },
+          {
+            "id": "2456782cf8e83512",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "captura-dados-bolsa-de-valores"
+            }
+          },
+          {
+            "id": "4968d4155bc149f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/0-visao geral da analise de fundos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "0-visao geral da analise de fundos"
+            }
+          },
+          {
+            "id": "f1f75423250a967b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "aprofundamento analise Fundamentalista"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ac359326a9fe8c22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e263bef83a80e31c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/notas sobre o desenho do sistema.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "notas sobre o desenho do sistema"
             }
           }
         ]
@@ -113,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 301.5
   },
   "right": {
     "id": "6d280047996c7655",
@@ -287,7 +350,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -312,54 +375,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a94081eb84fb2b5",
+  "active": "6f8101b5920a39cd",
   "lastOpenFiles": [
-    "documentation/arquitetura do sistema/v1.zip",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/health/router/__pycache__/health_router.cpython-313.pyc",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/brapi/controllers/brapi.controller.ts",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/health/router/__pycache__",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/health/router/health_router.py",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/__pycache__/app.cpython-313.pyc",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/IBGE/ibge_module.py",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/brapi/controllers",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/health/router",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/__pycache__",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/IBGE",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/0-visao geral da analise de fundos.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades/entidade empresa.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Técnica.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Quantitativa-Fatorial.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/notas sobre o desenho do sistema.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/design-sistema-captura-dados-investimento.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/divisao em camadas/captura de dados de investimento-Dcamadas.png",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md",
+    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Macro-Setorial_top-down.md",
+    "documentation/arquitetura do sistema/v1/Process Modeling/personalizacao de sugestoes ded investimento para o usuario/personalizacao de sugestoes de investimento para o usuário.md",
+    "documentation/arquitetura do sistema/v1/Process Modeling/personalização de noticias/personalização de noticias.png",
+    "documentation/arquitetura do sistema/v1/Process Modeling/identidade e acesso/Identidade e Acesso.md",
+    "documentation/arquitetura do sistema/v1/visao geral do sistema/diagrama geral do sistema/mapa de dominio.md",
+    "documentation/arquitetura do sistema/v1/visao geral do sistema/2-contextos delimitados(bounded context).md",
+    "documentation/arquitetura do sistema/v1/visao geral do sistema/1-Definição de Domínio e subdomínios do Projeto.md",
+    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento/crawler-service/brapi.yml",
+    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento/crawler-service/health check.yml",
     "documentation/insumos/fontes de dados.md",
+    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento/crawler-service/insumos/testeBrapi.yml",
+    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/environments/brapi.dev.yml",
+    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/environments",
+    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento/crawler-service/insumos/Untitled.yml",
+    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento/crawler-service/insumos/folder.yml",
+    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/bounded_Context/captura de dados de investimento/crawler-service/insumos",
+    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/insumos/folder.yml",
+    "documentation/arquitetura do sistema/v1/documentacao-endpoints/Projeto1/insumos",
     "code/backend/k8s/comandos_uteis.md",
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/descontinuado/scheduler-service/README.md",
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/descontinuado/crawler-service/README.md",
     "documentation/arquitetura do sistema/v1/visao geral do sistema/diagrama geral do sistema/mapa de dominio.png",
-    "documentation/arquitetura do sistema/v1/visao geral do sistema/diagrama geral do sistema/mapa de dominio.md",
-    "documentation/arquitetura do sistema/v1/visao geral do sistema/2-contextos delimitados(bounded context).md",
-    "documentation/arquitetura do sistema/v1/visao geral do sistema/1-Definição de Domínio e subdomínios do Projeto.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/desenho do banco de dados/Drawing 2026-07-12 07.31.05.excalidraw.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/notas sobre o desenho do sistema.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/design sistema/design-sistema-captura-dados-investimento.md",
     "Pasted Image 20260824190713_103.png",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/divisao em camadas/captura de dados de investimento-Dcamadas.png",
     "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/desenho do sistema/divisao em camadas/captura de dados de investimento-Dcamadas.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Técnica.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Quantitativa-Fatorial.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento Analise Macro-Setorial_top-down.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/aprofundamento analise Fundamentalista.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/tipos de analise de acoes-fundos/0-visao geral da analise de fundos.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/regras de negocio/entidades/entidade empresa.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.md",
-    "documentation/arquitetura do sistema/v1/Process Modeling/identidade e acesso/Identidade e Acesso.md",
     "conflict-files-obsidian-git.md",
     "code/backend/k8s/como-deployar-um-service.md",
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/scheduler-service/README.md",
-    "documentation/arquitetura do sistema/v1/contexto delimitado/_ _ captura de dados de investimento/bounded context/event storm/captura-dados-bolsa-de-valores.png",
     "README.md",
     "code/frontend/web/provider/teste123/README.md",
-    "code/frontend/web/provider/highlight_card/README.md",
     "codigo/frontend/mobile/simple_bank/build/app/intermediates/packaged_res/debug/packageDebugResources/mipmap-xxhdpi-v4/ic_launcher.png",
     "codigo/frontend/mobile/simple_bank/build/app/intermediates/packaged_res/debug/packageDebugResources/mipmap-xhdpi-v4/ic_launcher.png",
     "code/frontend/mobile/simple_bank/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
     "code/frontend/mobile/simple_bank/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
     "code/frontend/mobile/simple_bank/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
-    "code/frontend/mobile/simple_bank/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
     "Sem título.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"

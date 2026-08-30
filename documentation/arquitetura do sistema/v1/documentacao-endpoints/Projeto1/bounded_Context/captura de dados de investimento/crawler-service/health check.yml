@@ -1,5 +1,5 @@
 info:
-  name: testeDeConexão
+  name: health check
   type: http
   seq: 1
 

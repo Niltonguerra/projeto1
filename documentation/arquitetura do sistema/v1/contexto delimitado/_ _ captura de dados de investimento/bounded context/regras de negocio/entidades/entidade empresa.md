@@ -9,6 +9,9 @@ public class Empresa {
     private GovernancaCorporativa governanca;
     private List<DadosFinanceirosPeriodo> historicoFinanceiro; // ordenado por período
     private DadosMercado dadosMercadoAtual;
+    private BigDecimal freeFloat; 
+    private BigDecimal tagAlong; 
+    private NivelGovernanca nivelGovernancaB3; // enum: NOVO_MERCADO, NIVEL_1, NIVEL_2, BASICO
 }
 ```
 
@@ -56,6 +59,10 @@ public class DadosFinanceirosPeriodo {
     private BigDecimal despesaFinanceira; // NOVO — para NOPLAT 
     private BigDecimal impostosPagos; // NOVO — para NOPLAT
     private long numeroAcoesCirculacao;
+    private BigDecimal estoque; 
+    private BigDecimal contasAReceber; 
+    private BigDecimal contasAPagar; 
+    private BigDecimal dividendosPagos; 
 }
 ```
 

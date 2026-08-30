@@ -1,0 +1,18 @@
+info:
+  name: testeBrapi
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: "{{brapi_url}}/api/quote/PETR4"
+  auth:
+    type: bearer
+    token: mFYFEYvVSKFuHJyxZCBDEB
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
