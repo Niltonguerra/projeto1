@@ -4,7 +4,7 @@ services:
     ports:
       - "3500:3500"
     environment:
-      - BRAPI_TOKEN=${BRAPI_TOKEN:-}
+#      - BRAPI_TOKEN=${BRAPI_TOKEN:-}
       - BACEN_BASE_URL=https://api.bcb.gov.br/dados/serie/bcdata.sgs
       - BRAPI_BASE_URL=https://brapi.dev/api
       - CVM_BASE_URL=https://dados.cvm.gov.br/dados
