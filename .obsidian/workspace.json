@@ -312,8 +312,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f8101b5920a39cd",
+  "active": "2a94081eb84fb2b5",
   "lastOpenFiles": [
+    "documentation/arquitetura do sistema/v1.zip",
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/health/router/__pycache__/health_router.cpython-313.pyc",
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/brapi/controllers/brapi.controller.ts",
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/health/router/__pycache__",
@@ -324,7 +325,6 @@
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/health/router",
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/__pycache__",
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/IBGE",
-    "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/crawler-analyst-investment-service/modules/brapi",
     "documentation/insumos/fontes de dados.md",
     "code/backend/k8s/comandos_uteis.md",
     "code/backend/banco_simplificado/bounded_context/captura_dados_investimento/services/descontinuado/scheduler-service/README.md",
