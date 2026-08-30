@@ -1,0 +1,11 @@
+# config/configmaps/crawler-analyst-investment-service-config.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: crawler-analyst-investment-service-config
+  namespace: services
+data:
+  BACEN_BASE_URL: "https://api.bcb.gov.br/dados/serie/bcdata.sgs"
+  BRAPI_BASE_URL: "https://brapi.dev/api"
+  CVM_BASE_URL: "https://dados.cvm.gov.br/dados"
+  IBGE_BASE_URL: "https://servicodados.ibge.gov.br/api/v3"
